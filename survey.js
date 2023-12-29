@@ -1,4 +1,10 @@
 function submitSurvey() {
+  // Check if the survey has already been completed
+  if (sessionStorage.getItem("surveyCompleted") === "true") {
+    alert("You have already completed the survey.");
+    return;
+  }
+
   // Check if any question is unanswered
   var q1 = document.querySelector('input[name="q1"]:checked');
   var q2 = document.querySelector('input[name="q2"]:checked');
@@ -17,10 +23,9 @@ function submitSurvey() {
 
   // Optionally, you can reset the form or perform other actions here
 
-  // Hide the survey container
-  document.getElementById("survey-container").style.display = "none";
-}
- localStorage.setItem("surveyCompleted", "true");
+  // Store a flag indicating that the survey has been completed
+  sessionStorage.setItem("surveyCompleted", "true");
 
-// Redirect to index.html
-window.location.href = "index.html";
+  // Redirect to homepage
+  window.location.href = "index.html";
+}
