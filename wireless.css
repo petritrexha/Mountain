@@ -1,0 +1,152 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+#Keyboard-shop{
+    background-color: rgb(21, 41, 58);
+    overflow-x: hidden;
+}
+
+.pr-header{
+    height: 100vh;
+    width: 100%;
+}
+
+.navbar{
+    padding: 15px 18px !important;
+}
+
+.logo{
+    font-weight: 900;
+    font-size: 30px;
+    color: rgba(183, 140, 252, 0.8) !important;
+}
+
+.nav-item{
+    margin: 0px 10px;
+}
+
+.nav-item .nav-link {
+    color: rgba(255, 255, 255, .9);
+    font-size: 22px;
+    font-weight: 500;
+    position: relative;
+}
+
+.nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: -1px;
+    left: 0px;
+    background-color: rgb(151, 63, 36);
+    width: 0%;
+    height: 3px;
+    transition: .4s ease-in-out;
+}
+
+.nav-item:hover .nav-link::after {
+    width: 100%;
+}
+
+.nav-link:hover {
+    color: rgb(30, 180, 255);
+}
+
+.btn-navbar{
+    display: inline-block;
+    padding: 10px 40px;
+    border: 1px solid rgb(30,180, 255);
+    color: white;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: rgb(69, 42, 219);
+    transition: .2s ease;
+}
+
+.btn-navbar:hover{
+    background-color: rgb(51, 78, 102);
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(151, 63, 36);
+}
+
+.fa-arrow-right{
+    color: rgb(151, 63, 36);
+    font-size: 10px;
+    margin-left: 5px;
+}
+
+.fa-arrow-right:hover{
+    color: white;
+}
+
+.product-category{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 4px;
+}
+
+.heading-product{
+    font-size: 30px;
+    color: rgb(151, 63, 36);
+    margin-bottom: 120px;
+    position: relative;
+}
+
+.heading-product::after{
+    content: '';
+    position: absolute;
+    left: 0px;
+    bottom: -8px;
+    background-color: rgb(151, 63, 36);
+    width:55px ;
+    height: 2px;
+}
+.card-product{
+    padding: 13px 10px;
+    background-color: rgb(16, 48, 77) !important;
+
+}
+
+.img-card{
+    height: 200px !important;
+
+}
+
+.card-title{
+    font-size: 15px;
+    font-weight: 900;
+    color: rgb(151, 63, 36) !important;
+    width: 100%;
+    border-bottom: 1px solid rgb(151, 63, 36);
+    padding: 5px 0px;
+    margin: 10px 0px;
+    margin-bottom: 20px !important;
+}
+
+.card-text{
+    color:rgba(255, 255, 255, .9);
+    font-size: 12px;
+    line-height: 22px;
+}
+
+.btn-product-ctg{
+    color: rgb(151, 63, 36);
+    text-decoration: none;
+    font-size:13px ;
+    text-transform: uppercase;
+
+}
+
+.btn-product-ctg:hover{
+    color: rgb(167, 117, 102);
+}
