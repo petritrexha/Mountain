@@ -4,13 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Aboutus.css">
-    
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="media.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-        <script src="https://kit.fontawesome.com/59fa27a05e.js" crossorigin="anonymous"></script>
-        
-    <title>About us</title>
+    <script src="https://kit.fontawesome.com/59fa27a05e.js" crossorigin="anonymous"></script>
+    <script src="login.js" defer></script>
+    
+    <title>Keyboard shop</title>
 </head>
 
 <body id="Keyboard-shop">
@@ -36,7 +37,7 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="Products.html">Products</a>
                             </li>
-                          
+                           
                             <li class="nav-item">
                                 <a class="nav-link" href="reviews.html">Reviews</a>
                             </li>
@@ -57,46 +58,23 @@
                     </div>
                 </div>
             </nav>
+        </div>
 
-            <div class="container">
-                <div class="pr-about-us-container">
-                    <div class="pr-about-us">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="pr-content-about">
-                                    <h3 class="pr-heading-about">About us</h3>
-                                    <p class="pr-pershkrim">Welcome to Mountain, where keystrokes scale new heights of
-                                        innovation. Born from a passion for
-                                        precision, Mountain is more than a keyboard brand—it's an ode to the art of
-                                        typing.
-
-                                        Our journey begins with a team dedicated to transforming typing experiences.
-                                        Crafting keyboards that blend
-                                        aesthetics with functionality, each key represents a summit of tactile
-                                        excellence, ensuring every keystroke is a
-                                        satisfying ascent.
-
-                                        Mountain recognizes that a keyboard is more than a device—it's an extension of
-                                        your creativity. Whether you're a
-                                        gamer, coder, or writer, our keyboards elevate your performance, merging
-                                        technology with elegant design.
-
-                                        Join us in the world of Mountain—a summit of innovation in keyboards.
-                                    </p>
-                                    <a href="Products.html" class="pr-link-about">
-                                        <span class="pr-span-about"></span>GO SHOP <span class="icon-arrow"><i class="fa-solid fa-arrow-right"></i></span></a>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <img src="photo-1614285457768-646f65ca8548.webp"  alt="img" class="img-about" > <!--qit klasen img about kur pe boj me pr-spom del qysh po du-->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div class="loginbox">
+            <h1>Login Here</h1>
+            <form onsubmit="handleLogin(event)">
+                <p>Username</p>
+                <input type="text" id="username" placeholder="Enter Username" required>
+                <p>Password</p>
+                <input type="password" id="password" placeholder="Enter password" required>
+                <input type="submit" value="Login">
+                <a href="#">Lost your password?</a><br>
+                <a href="#">Don't have an account?</a>
+            </form>
         </div>
     </div>
     
+
     <footer class="bg-dark text-white pt-5 pb-4">
         <div class="container text-center text-md-left">
             <div class="row">
@@ -162,9 +140,11 @@
             </div>
         </div>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
 </body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-    crossorigin="anonymous"></script>
 
 </html>

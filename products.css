@@ -20,7 +20,7 @@
     padding: 15px 18px !important;
 }
 
-.logo{
+.pr-logo{
     font-weight: 900;
     font-size: 30px;
     color: rgba(183, 140, 252, 0.8) !important;
@@ -85,7 +85,7 @@
     color: white;
 }
 
-.product-category{
+.pr-product-category{
     width: 100%;
     height: 100vh;
     display: flex;
@@ -95,14 +95,14 @@
     padding: 4px;
 }
 
-.heading-product{
+.pr-heading-product{
     font-size: 30px;
     color: rgb(151, 63, 36);
     margin-bottom: 120px;
     position: relative;
 }
 
-.heading-product::after{
+.pr-heading-product::after{
     content: '';
     position: absolute;
     left: 0px;
@@ -111,23 +111,25 @@
     width:55px ;
     height: 2px;
 }
-.card-product{
+.pr-card-product{
     padding: 13px 10px;
     background-color: rgb(16, 48, 77) !important;
+    
 
 }
 
-.img-card{
+
+.pr-img-card{
     height: 200px !important;
     
 
 }
 
-.img-card2{
+.pr-img-card2{
     height: 250px !important;
 }
 
-.card-title{
+.pr-card-title{
     font-size: 15px;
     font-weight: 900;
     color: rgb(151, 63, 36) !important;
@@ -138,13 +140,13 @@
     margin-bottom: 20px !important;
 }
 
-.card-text{
+.pr-card-text{
     color:rgba(255, 255, 255, .9);
     font-size: 12px;
     line-height: 22px;
 }
 
-.btn-product-ctg{
+.pr-button{
     color: rgb(151, 63, 36);
     text-decoration: none;
     font-size:13px ;
@@ -152,7 +154,7 @@
 
 }
 
-.btn-product-ctg:hover{
+.pr-button:hover{
     color: rgb(167, 117, 102);
 }
 

@@ -20,7 +20,7 @@
     padding: 15px 18px !important;
 }
 
-.logo{
+.pr-logo{
     font-weight: 900;
     font-size: 30px;
     color: rgba(183, 140, 252, 0.8) !important;
@@ -75,23 +75,23 @@
     border: 1px solid rgb(151, 63, 36);
 }
 
-.about-us-container{
+.pr-about-us-container{
     width: 100%;
     height: 80vh;
 }
 
-.about-us{
+.pr-about-us{
     width: 100%;
     height: 320px;
     background-color: rgb(9, 46, 78);
     margin-top:200px ;
     position: relative;
 }
-.content-about{
+.pr-content-about{
     padding:10px 38px;
 }
 
-.heading-about{
+.pr-heading-about{
     font-size: 30px;
     font-weight: bold;
     letter-spacing: 1px;
@@ -102,7 +102,7 @@
 
 }
 
-.heading-about::after{
+.pr-heading-about::after{
     content: '';
     position: absolute;
     left: 0px;
@@ -121,7 +121,7 @@
     margin: 25px 0px;
 }
 
-.link-about {
+.pr-link-about {
     text-decoration: none;
     text-transform: uppercase;
     border: 1px solid rgb(151, 63, 36);
@@ -134,15 +134,15 @@
     z-index: 22;
 }
 
-.link-about:hover .span-about {
+.pr-link-about:hover .pr-span-about {
     width: 100%;
 }
 
-.link-about:hover {
+.pr-link-about:hover {
     color: aliceblue;
 }
 
-.span-about {
+.pr-span-about {
     position: absolute;
     top: 0;
     left: 0;

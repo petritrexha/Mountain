@@ -1,0 +1,167 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+#Keyboard-shop{
+    background-color: rgb(21, 41, 58);
+    overflow-x: hidden;
+}
+
+.pr-header{
+    height: 100vh;
+    width: 100%;
+}
+
+.navbar{
+    padding: 15px 18px !important;
+}
+
+.pr-logo{
+    font-weight: 900;
+    font-size: 30px;
+    color: rgba(183, 140, 252, 0.8) !important;
+}
+
+.nav-item{
+    margin: 0px 10px;
+}
+
+.nav-item .nav-link {
+    color: rgba(255, 255, 255, .9);
+    font-size: 22px;
+    font-weight: 500;
+    position: relative;
+}
+
+.nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: -1px;
+    left: 0px;
+    background-color: rgb(151, 63, 36);
+    width: 0%;
+    height: 3px;
+    transition: .4s ease-in-out;
+}
+
+.nav-item:hover .nav-link::after {
+    width: 100%;
+}
+
+.nav-link:hover {
+    color: rgb(30, 180, 255);
+}
+
+.btn-navbar{
+    display: inline-block;
+    padding: 10px 40px;
+    border: 1px solid rgb(30,180, 255);
+    color: white;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: rgb(69, 42, 219);
+    transition: .2s ease;
+}
+
+.btn-navbar:hover{
+    background-color: rgb(51, 78, 102);
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(151, 63, 36);
+}
+
+.loginbox{
+    width: 320px;
+    height: 420px;
+    background:#0b3f4e ;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+h1{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 22px;
+}
+
+.loginbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.loginbox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.loginbox input[type="text"], input[type="password"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background:transparent ;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 15px;
+}
+.loginbox input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background:black ;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+
+
+}
+
+.loginbox input[type="submit"]:hover{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+
+.loginbox a{
+    text-decoration: none;
+    font-size: 10px;
+    line-height: 20px;
+    color: darkgray;
+}
+
+.loginbox a:hover{
+    color:#ffc107;
+
+}
+
+
+.login-button {
+    position: fixed;
+    bottom: 20px; 
+    right: 20px; 
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}   
+
+/*keto bootstrap klases sa e di une nuk jane ama kur po ja shtoj pr- nuk po funksion*/
+

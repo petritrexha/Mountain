@@ -5,10 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="survey.css">
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-        <script src="https://kit.fontawesome.com/59fa27a05e.js" crossorigin="anonymous"></script>
-        <script src="survey.js"></script>
+    <script src="https://kit.fontawesome.com/59fa27a05e.js" crossorigin="anonymous"></script>
+    <script src="survey.js"></script>
     <title>About us</title>
 </head>
 
@@ -31,17 +32,23 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="Aboutus.html">About us</a>
                             </li>
-                            
+
                             <li class="nav-item">
                                 <a class="nav-link" href="Products.html">Products</a>
                             </li>
-                            
+
                             <li class="nav-item">
                                 <a class="nav-link" href="reviews.html">Reviews</a>
                             </li>
                             <li class="nav-item">
-                              <a class="nav-link" href="survey.html">Survey</a>
-                          </li>
+                                <a class="nav-link" href="survey.html">Survey</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="comparisons.html">Comparisons</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="login.html">Log in</a>
+                            </li>
                             <li class="nav-item">
                                 <a class="btn-navbar" href="Products.html">Buy now</a>
                             </li>
@@ -50,178 +57,181 @@
                     </div>
                 </div>
             </nav>
-          </div>
-          <div id="survey-container">
-            <h1>Simple survey for us to improve in general.</h1>
-        <br>
-            <div class="question">
-              <p>1. How has your day been so far?</p>
-              <label>
-                <input type="radio" name="q1" value="good"> Good.
-              </label>
-              <label>
-                <input type="radio" name="q1" value="okay"> Okay.
-              </label>
-              <label>
-                <input type="radio" name="q1" value="bad"> Bad.
-              </label>
-              <label>
-                <input type="radio" name="q1" value="bad"> Very bad.
-              </label>
-            </div>
-        <br>
-            <div class="question">
-              <p>2.When u look for a keyboard what are the first things you look at.</p>
-              <label>
-                <input type="radio" name="q2" value="mechanical?"> If it is mechanical?
-              </label>
-              <label>
-                <input type="radio" name="q2" value="rgb?"> Does it have RGB?
-              </label>
-              <label>
-                <input type="radio" name="q2" value="combo"> Combiantion of both?
-              </label>
-              <label>
-                <input type="radio" name="q2" value="dont matter"> It doesnt matter
-              </label>
-            </div>
-        <br>
-            <div class="question">
-              <p>3.What is your previous favourite keyboard brand?</p>
-              <select id="q3">
-                <option value="razer">Razer</option>
-                <option value="Logitech">Logitech</option>
-                <option value="HyperX">HyperX</option>
-                <option value="Steelseries">Steelseries</option>
-                <option value="n.o.t.a">None of the above</option>
-              </select>
-            </div>
-            <br>
-            <div class="question">
-              <p>4.Have you used one of our products before?</p>
-              <label>
-                <input type="radio" name="q4" value="yes"> Yes.
-              </label>
-              <label>
-                <input type="radio" name="q4" value="no">No.
-              </label>
-              
-            </div>
-            <br>
-            
-            <div class="question">
-              <p>5.Are the prices fair in your opinion?</p>
-              <label>
-                <input type="radio" name="q5" value="fair"> Pretty fair.
-              </label>
-              <label>
-                <input type="radio" name="q5" value="notfair"> Not fair at all.
-              </label>
-              <label>
-                <input type="radio" name="q5" value="alright"> They are alright.
-              </label>
-              
-            </div>
-            <br>
-            <div class="question">
-              <p>5.Are you looking forward to a good relationship between us?</p>
-              <label>
-                <input type="radio" name="q6" value="fair"> Yes.
-              </label>
-              <label>
-                <input type="radio" name="q6" value="notfair"> No.
-              </label>
-              <label>
-                <input type="radio" name="q6" value="alright"> We will se how the future upholds.
-              </label>
-              
-            </div>
-        
-            <button onclick="submitSurvey()" style="background-color: black; color: #442ec0;">Submit</button>
-        
-            <div id="results" style="display: none;">
-              <h2>Survey Results:</h2>
-              <p>How has your day been so far?: <span id="result-q1" class="result"></span></p>
-              <p>When u look for a keyboard what are the first things you look at?: <span id="result-q2" class="result"></span></p>
-              <p>What is your previous favourite keyboard brand?: <span id="result-q3" class="result"></span></p>
-              <p>Have you used one of our products before?: <span id="result-q4" class="result"></span></p>
-              <p>Are the prices fair in your opinion?: <span id="result-q5" class="result"></span></p>
-              <p>Are you looking forward to a good relationship between us?: <span id="result-q6" class="result"></span></p>
-              
-            </div>
-          </div>
-        
         </div>
+        <div id="survey-container">
+            <h1><span style="color: #ce6021;">Simple survey </span>for us to improve in general.</h1>
+            <br>
+            <div class="pr-question">
+                <p>1. How has your day been so far?</p>
+                <label>
+                    <input type="radio" name="q1" value="good"> Good.
+                </label>
+                <label>
+                    <input type="radio" name="q1" value="okay"> Okay.
+                </label>
+                <label>
+                    <input type="radio" name="q1" value="bad"> Bad.
+                </label>
+                <label>
+                    <input type="radio" name="q1" value="bad"> Very bad.
+                </label>
+            </div>
+            <br>
+            <div class="pr-question">
+                <p>2.When u look for a keyboard what are the first things you look at.</p>
+                <label>
+                    <input type="radio" name="q2" value="mechanical?"> If it is mechanical?
+                </label>
+                <label>
+                    <input type="radio" name="q2" value="rgb?"> Does it have RGB?
+                </label>
+                <label>
+                    <input type="radio" name="q2" value="combo"> Combiantion of both?
+                </label>
+                <label>
+                    <input type="radio" name="q2" value="dont matter"> It doesnt matter
+                </label>
+            </div>
+            <br>
+            <div class="pr-question">
+                <p>3.What is your previous favourite keyboard brand?</p>
+                <select id="q3">
+                    <option value="razer">Razer</option>
+                    <option value="Logitech">Logitech</option>
+                    <option value="HyperX">HyperX</option>
+                    <option value="Steelseries">Steelseries</option>
+                    <option value="n.o.t.a">None of the above</option>
+                </select>
+            </div>
+            <br>
+            <div class="pr-question">
+                <p>4.Have you used one of our products before?</p>
+                <label>
+                    <input type="radio" name="q4" value="yes"> Yes.
+                </label>
+                <label>
+                    <input type="radio" name="q4" value="no"> No.
+                </label>
 
+            </div>
+            <br>
+
+            <div class="pr-question">
+                <p>5.Are the prices fair in your opinion?</p>
+                <label>
+                    <input type="radio" name="q5" value="fair"> Pretty fair.
+                </label>
+                <label>
+                    <input type="radio" name="q5" value="notfair"> Not fair at all.
+                </label>
+                <label>
+                    <input type="radio" name="q5" value="alright"> They are alright.
+                </label>
+
+            </div>
+            <br>
+            <div class="pr-question">
+                <p>5.Are you looking forward to a good relationship between us?</p>
+                <label>
+                    <input type="radio" name="q6" value="fair"> Yes.
+                </label>
+                <label>
+                    <input type="radio" name="q6" value="notfair"> No.
+                </label>
+                <label>
+                    <input type="radio" name="q6" value="alright"> We will see how the future upholds.
+                </label>
+
+            </div>
+
+            <button onclick="submitSurvey()"
+                style="background-color: black; color: #442ec0; width: 100px;">Submit</button>
+
+            <div id="results" style="display: none;">
+                <h2>Survey Results:</h2>
+                <p>How has your day been so far?: <span id="result-q1" class="pr-result"></span></p>
+                <p>When u look for a keyboard what are the first things you look at?: <span id="result-q2"
+                        class="pr-result"></span></p>
+                <p>What is your previous favourite keyboard brand?: <span id="result-q3" class="pr-result"></span></p>
+                <p>Have you used one of our products before?: <span id="result-q4" class="pr-result"></span></p>
+                <p>Are the prices fair in your opinion?: <span id="result-q5" class="pr-result"></span></p>
+                <p>Are you looking forward to a good relationship between us?: <span id="result-q6"
+                        class="pr-result"></span></p>
+
+            </div>
+        </div>
+<br><br><br><br><br><br>
         <footer class="bg-dark text-white pt-5 pb-4">
-          <div class="container text-center text-md-left">
-              <div class="row">
-                  <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-                      <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Mountain</h5>
-                      <p>
-                          "Discover Mountain, where every keystroke is a masterpiece. Elevate your experience with our innovative keyboards – precision and comfort at your fingertips."</p>
-                  </div>
-                  <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-                      <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Products</h5>
-                      <p><a href="#" class="text-white" style="text-decoration: none;">Keyboards</a></p>
-                      <p><a href="#" class="text-white" style="text-decoration: none;">Wireless</a></p>
-                      <p><a href="#" class="text-white" style="text-decoration: none;">Wired</a></p>
-                      <p><a href="#" class="text-white" style="text-decoration: none;">Happines</a></p>
-                  </div>
-                  <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
-                      <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Useful links</h5>
-                      <p><a href="#" class="text-white" style="text-decoration: none;">Account</a></p>
-                      <p><a href="#" class="text-white" style="text-decoration: none;">Become an Affiliate</a></p>
-                      <p><a href="#" class="text-white" style="text-decoration: none;">Shipping rates</a></p>
-                      <p><a href="#" class="text-white" style="text-decoration: none;">Help</a></p>
-                  </div>
-                  <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
-                      <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Contact</h5>
-                      <p><i class="fas fa-home mr-3"></i>Kosovo, Mitrovice</p>
-                      <p><i class="fas fa-envelope mr-3"></i>petrit.rexha@umib.net</p>
-                      <p><i class="fas fa-phone mr-3"></i>049-240-421 (not real)</p>
-                      <p><i class="fas fa-phone mr-3"></i>045-235-523 (also not real)</p>
-                  </div>
-              </div>
-              <hr class="mb-4">
-              <div class="row align-items-center">
-                  <div class="col-md-7 col-lg-8">
-                      <p>Copyright ©2020 All rights reserved by:
-                          <a href="#" style="text-decoration: none;" class="text-warning">Mountain</a></p>
-                  </div>
-                  <div class="col-md-5 col-lg-4">
-                      <div class="text-center text-md-right">
-                          <ul class="list list-unstyled list-inline">
-                              <li class="list-inline-item">
-                                  <a href="https://www.facebook.com/" class="btn-floating btn-sm text-white" style="font-size: 23px;" target="_blank"><i
-                                          class="fa-brands fa-facebook"></i></a>
-                              </li>
-                              <li class="list-inline-item">
-                                  <a href="https://twitter.com/" class="btn-floating btn-sm text-white" style="font-size: 23px;" target="_blank"><i
-                                          class="fa-solid fa-x"></i></a>
-                              </li>
-                              <li class="list-inline-item">
-                                  <a href="https://www.google.com/" class="btn-floating btn-sm text-white" style="font-size: 23px;" target="_blank"><i
-                                          class="fa-brands fa-google"></i></a>
-                              </li>
-                              <li class="list-inline-item">
-                                  <a href="https://www.linkedin.com/" class="btn-floating btn-sm text-white" style="font-size: 23px;" target="_blank"><i
-                                          class="fa-brands fa-linkedin"></i></a>
-                              </li>
-                              <li class="list-inline-item">
-                                  <a href="https://www.youtube.com/" class="btn-floating btn-sm text-white" style="font-size: 23px;" target="_blank"><i
-                                          class="fa-brands fa-youtube"></i></a>
-                              </li>
-                          </ul>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </footer>
-
-
-  </body>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-    crossorigin="anonymous"></script>
+            <div class="container text-center text-md-left">
+                <div class="row">
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                        <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Mountain</h5>
+                        <p>
+                            "Discover Mountain, where every keystroke is a masterpiece. Elevate your experience with our
+                            innovative keyboards – precision and comfort at your fingertips."</p>
+                    </div>
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                        <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Products</h5>
+                        <p><a href="#" class="text-white" style="text-decoration: none;">Keyboards</a></p>
+                        <p><a href="#" class="text-white" style="text-decoration: none;">Wireless</a></p>
+                        <p><a href="#" class="text-white" style="text-decoration: none;">Wired</a></p>
+                        <p><a href="#" class="text-white" style="text-decoration: none;">Happines</a></p>
+                    </div>
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                        <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Useful links</h5>
+                        <p><a href="#" class="text-white" style="text-decoration: none;">Account</a></p>
+                        <p><a href="#" class="text-white" style="text-decoration: none;">Become an Affiliate</a></p>
+                        <p><a href="#" class="text-white" style="text-decoration: none;">Shipping rates</a></p>
+                        <p><a href="#" class="text-white" style="text-decoration: none;">Help</a></p>
+                    </div>
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                        <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Contact</h5>
+                        <p><i class="fas fa-home mr-3"></i>Kosovo, Mitrovice</p>
+                        <p><i class="fas fa-envelope mr-3"></i>petrit.rexha@umib.net</p>
+                        <p><i class="fas fa-phone mr-3"></i>049-240-421 (not real)</p>
+                        <p><i class="fas fa-phone mr-3"></i>045-235-523 (also not real)</p>
+                    </div>
+                </div>
+                <hr class="mb-4">
+                <div class="row align-items-center">
+                    <div class="col-md-7 col-lg-8">
+                        <p>Copyright ©2020 All rights reserved by:
+                            <a href="#" style="text-decoration: none;" class="text-warning">Mountain</a></p>
+                    </div>
+                    <div class="col-md-5 col-lg-4">
+                        <div class="text-center text-md-right">
+                            <ul class="list list-unstyled list-inline">
+                                <li class="list-inline-item">
+                                    <a href="https://www.facebook.com/" class="btn-floating btn-sm text-white"
+                                        style="font-size: 23px;" target="_blank"><i
+                                            class="fa-brands fa-facebook"></i></a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="https://twitter.com/" class="btn-floating btn-sm text-white"
+                                        style="font-size: 23px;" target="_blank"><i class="fa-solid fa-x"></i></a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="https://www.google.com/" class="btn-floating btn-sm text-white"
+                                        style="font-size: 23px;" target="_blank"><i class="fa-brands fa-google"></i></a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="https://www.linkedin.com/" class="btn-floating btn-sm text-white"
+                                        style="font-size: 23px;" target="_blank"><i
+                                            class="fa-brands fa-linkedin"></i></a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="https://www.youtube.com/" class="btn-floating btn-sm text-white"
+                                        style="font-size: 23px;" target="_blank"><i
+                                            class="fa-brands fa-youtube"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
 </html>

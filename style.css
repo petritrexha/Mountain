@@ -21,7 +21,7 @@
     padding: 15px 18px !important;
 }
 
-.logo{
+.pr-logo{
     font-weight: 900;
     font-size: 30px;
     color: rgba(183, 140, 252, 0.8) !important;
@@ -91,7 +91,7 @@
     
 }
 
-.home-span{
+.pr-home-span{
     color:black;
 }
 
@@ -102,7 +102,7 @@
     max-width: 4;
 }
 
-.home-links{
+.pr-home-links{
     display: inline-block;
     text-decoration: none;
     color: white;
@@ -117,20 +117,21 @@
     transition: .3s ease;
 }
 
-.btn-2{
+.pr-btn-2{
     border: 1px solid rgb(0, 0, 0);
     color: rgb(0, 0, 0);
     background-color: transparent;
 
 }
 
-.home-links:hover{
+.pr-home-links:hover{
     background-color: transparent;
     color: rgb(151, 63, 36);
     border: 1px solid rgb(151, 63, 36);
 }
 
-.img-home{
+.pr-img-home{
   margin-right: 20px;
   width: 730px;  
 }
+
