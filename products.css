@@ -12,7 +12,7 @@
 }
 
 .pr-header{
-    height: 100vh;
+    height: 8vh;
     width: 100%;
 }
 
@@ -100,6 +100,7 @@
     color: rgb(151, 63, 36);
     margin-bottom: 120px;
     position: relative;
+    margin-top: 100px;
 }
 
 .pr-heading-product::after{
@@ -107,7 +108,7 @@
     position: absolute;
     left: 0px;
     bottom: -8px;
-    background-color: rgb(151, 63, 36);
+    background-color: rgb(0, 0, 0);
     width:55px ;
     height: 2px;
 }
@@ -118,17 +119,14 @@
 
 }
 
-
 .pr-img-card{
     height: 200px !important;
     
 
 }
-
 .pr-img-card2{
     height: 250px !important;
 }
-
 .pr-card-title{
     font-size: 15px;
     font-weight: 900;
@@ -187,3 +185,39 @@
 .button-left:hover{
     color: white;
 }
+
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+    .navbar-nav .nav-link {
+      font-size: 15px; 
+      font-weight: bold;
+    }
+  }
+@media (min-width: 993px) and (max-width: 1200px) {
+    .navbar-nav .nav-link {
+      font-size: 13px; 
+      font-weight: bold;
+    }
+  }
+
+@media (max-width: 993px) {
+    .pr-header {
+        height: auto;
+        padding-bottom: 600px;
+    }
+    .pr-heading-product{
+        padding-top: 20px;
+    }
+    .pr-product-category {
+        padding-top: 80px;
+    }
+    .pr-card-text {
+        font-size: 13px;
+        line-height: 18px;
+        font-weight: bold;
+    }
+    main{
+        padding-bottom: 750px;
+    }
+}
+ 

@@ -12,7 +12,7 @@
 }
 
 .pr-header{
-    height: 100vh;
+    height: 10vh;
     width: 100%;
 }
 
@@ -170,3 +170,37 @@
     top: -36px;
     right: 20px;
 }
+
+@media (max-width:1200px){
+    .pr-about-us{
+        height: 360px;
+    }
+
+}
+@media (min-width: 993px) and (max-width: 1200px) {
+    .navbar-nav .nav-link {
+      font-size: 15px; 
+      font-weight: bold;
+    }
+  }
+
+  @media (max-width:993px){
+    .pr-about-us{
+        height: 450px;
+    }
+    .pr-pershkrim{
+        font-size: 12px;
+    }
+  }
+
+  @media (max-width:767px){
+    .img-about{
+        display: none;
+    }
+  }
+
+  @media (max-width:346px){
+    .pr-about-us{
+         height: 650px;
+    }
+  }
