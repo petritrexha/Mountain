@@ -14,7 +14,7 @@
 }
 
 .pr-header{
-    height: 100vh;
+    height: 8vh;
     width: 100%;
 }
 
@@ -200,3 +200,39 @@ th {
 
 /*edhe ketu njejte nese pi zevendsoj te gjitha me pr- perpara emrit klasav krejt faqja po prishet..sdi*/
 /*i vetmi perfundim eshte qe keto jane klasa ndoshta jo te bootstrap po te ndonje tjeter per shkak se kam perdor edhe video*/
+
+
+@media (min-width: 993px) and (max-width: 1200px) {
+    .navbar-nav .nav-link {
+      font-size: 15px; 
+      
+    }
+}
+
+
+@media (max-width:560px) {
+    .para-testimonial{
+        font-size: 12px;
+    }
+    .client-desc{
+        font-size: 12px;
+    }
+    .profesioni{
+        font-size: 12px;
+    }
+    .client-name{
+        font-size: 14px;
+    }
+    .styling{
+        font-size: 20px;
+    }
+    .heading-testimonial{
+        font-size: 20px;
+    }
+    .container-content{
+        height: 550px;  
+    }
+    .footer{
+        margin-top: 700px;
+    }
+}

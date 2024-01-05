@@ -12,7 +12,7 @@
 }
 
 .pr-header{
-    height: 10vh;
+    height: 8vh;
     width: 100%;
 }
 
@@ -100,6 +100,7 @@
     color: rgb(151, 63, 36);
     margin-bottom: 120px;
     position: relative;
+    margin-top: 100px;
 }
 
 .pr-heading-product::after{
@@ -107,21 +108,25 @@
     position: absolute;
     left: 0px;
     bottom: -8px;
-    background-color: rgb(151, 63, 36);
+    background-color: rgb(0, 0, 0);
     width:55px ;
     height: 2px;
 }
 .pr-card-product{
     padding: 13px 10px;
     background-color: rgb(16, 48, 77) !important;
+    
 
 }
 
 .pr-img-card{
     height: 200px !important;
+    
 
 }
-
+.pr-img-card2{
+    height: 250px !important;
+}
 .pr-card-title{
     font-size: 15px;
     font-weight: 900;
@@ -134,51 +139,9 @@
 }
 
 .pr-card-text{
-    color:rgba(255, 255, 255, .9);
+    color:rgba(255, 255, 255, 0.9);
     font-size: 12px;
     line-height: 22px;
-}
-
-.pr-button{
-    color: rgb(151, 63, 36);
-    text-decoration: none;
-    font-size:13px ;
-    text-transform: uppercase;
-
-}
-
-.pr-button:hover{
-    color: rgb(167, 117, 102);
-}
-
-.btn-prev , .btn-bext{
-    position: relative;
-}
-
-.button-left{
-    position: absolute;
-    left: 130px;
-    padding: 10px 12px;
-    color: black;
-    border-radius: 30px;
-    font-size: 20px;
-    background-color: rgb(151, 63, 36);
-}
-.button-right{
-    position: absolute;
-    right: 130px;
-    padding: 10px 12px;
-    color: black;
-    border-radius: 30px;
-    font-size: 20px;
-    background-color: rgb(151, 63, 36);
-}
-
-.button-right:hover{
-    color:white;
-}
-.button-left:hover{
-    color: white;
 }
 
 @media (min-width: 1200px) and (max-width: 1400px) {
@@ -193,7 +156,6 @@
       font-weight: bold;
     }
   }
-
 @media (max-width: 993px) {
     .pr-header {
         height: auto;
@@ -214,46 +176,9 @@
         padding-bottom: 750px;
     }
 }
-@media (max-width:1637px) {
-    .button-left{
-        position: absolute;
-        left: 50px;
-        padding: 10px 12px;
-    }
-}
-@media (max-width:1637px) {
-    .button-right{
-        position: absolute;
-        right: 50px;
-        padding: 10px 12px;
-    }
-}
-
-@media (max-width:235px) {
-    .pr-heading-product{
-        margin-top: 300px;
-    }
-}
-
-@media (max-width:770px) {
-    main{
-        padding-top: 550px;
-    }
-}
 
 @media (max-width:553px) {
     main{
-        padding-top:600px ;
-    }
-}
-@media (max-width:447px) {
-    main{
-        padding-top: 450px;
-    }
-}
-@media (max-width:600px) {
-    .pr-butonat .btn-prev,
-    .pr-butonat .btn-next {
-        display: none;
+        padding-top:400px ;
     }
 }

@@ -12,7 +12,7 @@
 }
 
 .pr-header{
-    height: 10vh;
+    height: 8vh;
     width: 100%;
 }
 
@@ -100,6 +100,7 @@
     color: rgb(151, 63, 36);
     margin-bottom: 120px;
     position: relative;
+    margin-top: 100px;
 }
 
 .pr-heading-product::after{
@@ -107,21 +108,25 @@
     position: absolute;
     left: 0px;
     bottom: -8px;
-    background-color: rgb(151, 63, 36);
+    background-color: rgb(0, 0, 0);
     width:55px ;
     height: 2px;
 }
 .pr-card-product{
     padding: 13px 10px;
     background-color: rgb(16, 48, 77) !important;
+    
 
 }
 
 .pr-img-card{
     height: 200px !important;
+    
 
 }
-
+.pr-img-card2{
+    height: 250px !important;
+}
 .pr-card-title{
     font-size: 15px;
     font-weight: 900;
@@ -181,6 +186,7 @@
     color: white;
 }
 
+
 @media (min-width: 1200px) and (max-width: 1400px) {
     .navbar-nav .nav-link {
       font-size: 15px; 
@@ -197,7 +203,7 @@
 @media (max-width: 993px) {
     .pr-header {
         height: auto;
-        padding-bottom: 100px;
+        padding-bottom: 400px;
     }
     .pr-heading-product{
         padding-top: 20px;
@@ -234,26 +240,10 @@
         margin-top: 300px;
     }
 }
-
-@media (max-width:770px) {
-    main{
-        padding-top: 550px;
-    }
-}
-
-@media (max-width:553px) {
-    main{
-        padding-top:600px ;
-    }
-}
-@media (max-width:447px) {
-    main{
-        padding-top: 450px;
-    }
-}
 @media (max-width:600px) {
     .pr-butonat .btn-prev,
     .pr-butonat .btn-next {
         display: none;
     }
 }
+ 

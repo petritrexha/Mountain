@@ -22,7 +22,7 @@
     padding: 15px 18px !important;
 }
 
-.logo{
+.pr-logo{
     font-weight: 900;
     font-size: 30px;
     color: rgba(183, 140, 252, 0.8) !important;
@@ -77,25 +77,33 @@
     border: 1px solid rgb(151, 63, 36);
 }
 
-  #survey-container {
+#survey-container {
     max-width: 900px;
     margin: 0 auto;
     padding-top: 50px;
-  }
+}
 
-  .pr-question {
+.pr-question {
     margin-bottom: 10px;
     
-  }
+}
 
-  .pr-result {
+.pr-result {
     font-weight: bold;
     color: green;
-  }
+}
    
-  .pr-question select {
+.pr-question select {
     color: #442ec0; 
     background-color: #000000; 
     padding: 5px; 
-  }
+}  
+
+@media (min-width: 993px) and (max-width: 1200px) {
+    .navbar-nav .nav-link {
+      font-size: 15px; 
+      
+    }
+}
+ 
   
