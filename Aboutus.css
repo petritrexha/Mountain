@@ -18,6 +18,14 @@
 
 .navbar{
     padding: 15px 18px !important;
+    z-index: 2;
+}
+.navbar-toggler {
+    background-color: rgba(183, 140, 252, 0.8) !important; 
+} 
+.navbar-nav{
+    background-color: rgb(21, 41, 58);
+    padding: 15px 15px 15px 15px;
 }
 
 .pr-logo{
@@ -204,3 +212,11 @@
          height: 650px;
     }
   }
+
+  @media (max-width:278px) {
+    .pr-pershkrim{
+        font-size: 10px;
+    }
+  }
+
+  

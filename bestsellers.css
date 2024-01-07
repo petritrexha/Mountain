@@ -19,7 +19,13 @@
 .navbar{
     padding: 15px 18px !important;
 }
-
+.navbar-toggler {
+    background-color: rgba(183, 140, 252, 0.8) !important; 
+}
+.navbar-nav{
+    background-color: rgb(21, 41, 58);
+    padding: 15px 15px 15px 15px;
+}
 .pr-logo{
     font-weight: 900;
     font-size: 30px;
@@ -48,6 +54,14 @@
     transition: .4s ease-in-out;
 }
 
+.card{
+    transition: all .3s;
+}
+
+.card:hover{
+    transform: scaleY(1.1);
+}
+
 .nav-item:hover .nav-link::after {
     width: 100%;
 }
@@ -74,6 +88,7 @@
     color: rgb(0, 0, 0);
     border: 1px solid rgb(151, 63, 36);
 }
+
 
 .fa-arrow-right{
     color: rgb(151, 63, 36);
@@ -118,6 +133,22 @@
     
 
 }
+.pr-button{
+    color: rgb(151, 63, 36);
+    text-decoration: none;
+    font-size:13px ;
+    text-transform: uppercase;
+
+}
+
+.pr-button:hover{
+    color: rgb(167, 117, 102);
+}
+
+.container{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
 
 .pr-img-card{
     height: 200px !important;
@@ -143,6 +174,7 @@
     font-size: 12px;
     line-height: 22px;
 }
+
 
 @media (min-width: 1200px) and (max-width: 1400px) {
     .navbar-nav .nav-link {
@@ -172,13 +204,13 @@
         line-height: 18px;
         font-weight: bold;
     }
-    main{
+    .pr-main{
         padding-bottom: 750px;
     }
 }
 
-@media (max-width:553px) {
-    main{
-        padding-top:400px ;
+@media (max-width:768px) {
+    .pr-main{
+        margin-top: 300px;
     }
 }

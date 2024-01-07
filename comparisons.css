@@ -20,8 +20,15 @@
 
 .navbar {
     padding: 15px 18px !important;
+    z-index: 2;
 }
-
+.navbar-nav{
+    background-color: rgb(21, 41, 58);
+    padding: 15px 15px 15px 15px;
+}
+.navbar-toggler {
+    background-color: rgba(183, 140, 252, 0.8) !important; 
+}
 .pr-logo {
     font-weight: 900;
     font-size: 30px;
@@ -77,6 +84,7 @@
     border: 1px solid rgb(151, 63, 36);
 }
 
+
 table {
     width: 100%;
     border-collapse: collapse;
@@ -127,6 +135,3 @@ th {
     background-color: rgb(21, 41, 58);
 }
 
-.footer{
-    margin-top: 100px;
-}

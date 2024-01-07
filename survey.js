@@ -1,11 +1,10 @@
 function submitSurvey() {
-  // Check if the survey has already been completed
   if (sessionStorage.getItem("surveyCompleted") === "true") {
     alert("You have already completed the survey.");
     return;
   }
 
-  // Check if any question is unanswered
+ 
   var q1 = document.querySelector('input[name="q1"]:checked');
   var q2 = document.querySelector('input[name="q2"]:checked');
   var q3 = document.getElementById("q3").value;
@@ -18,14 +17,13 @@ function submitSurvey() {
     return;
   }
 
-  // Show thank-you message
   alert("Thank you for completing the survey!");
 
-  // Optionally, you can reset the form or perform other actions here
+  
 
-  // Store a flag indicating that the survey has been completed
+
   sessionStorage.setItem("surveyCompleted", "true");
 
-  // Redirect to homepage
+ 
   window.location.href = "index.html";
 }
