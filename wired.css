@@ -11,6 +11,8 @@
     overflow-x: hidden;
 }
 
+/*header start*/
+
 .pr-header{
     height: 8vh;
     width: 100%;
@@ -41,20 +43,6 @@
     font-size: 22px;
     font-weight: 500;
     position: relative;
-}
-
-.container{
-    padding-top: 25px;
-    padding-bottom: 25px;
-}
-
-.card{
-    transition: all .3s;
-}
-
-
-.card:hover{
-    transform: scaleY(1.1);
 }
 
 .nav-link::after {
@@ -95,6 +83,9 @@
     border: 1px solid rgb(151, 63, 36);
 }
 
+/*header end*/
+
+/*main start*/
 
 .fa-arrow-right{
     color: rgb(151, 63, 36);
@@ -147,6 +138,20 @@
 }
 .pr-img-card2{
     height: 250px !important;
+}
+
+.container{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.card{
+    transition: all .3s;
+}
+
+
+.card:hover{
+    transform: scaleY(1.1);
 }
 
 .pr-card-title{
@@ -208,6 +213,7 @@
     color: white;
 }
 
+/*main end*/
 
 @media (min-width: 1200px) and (max-width: 1400px) {
     .navbar-nav .nav-link {

@@ -11,6 +11,8 @@
     background-color: rgb(21, 41, 58);
     overflow-x: hidden;
 }
+/*header start*/
+
 
 .pr-header{
     height: 10vh;
@@ -20,13 +22,16 @@
 .navbar{
     padding: 15px 18px !important;
 }
+
 .navbar-nav{
     background-color: rgb(21, 41, 58);
     padding: 15px 15px 15px 15px;
 }
+
 .navbar-toggler {
     background-color: rgba(183, 140, 252, 0.8) !important; 
 }
+
 .pr-logo{
     font-weight: 900;
     font-size: 30px;
@@ -81,7 +86,10 @@
     color: rgb(0, 0, 0);
     border: 1px solid rgb(151, 63, 36);
 }
+/*header end*/
 
+
+/*main start*/
 
 .content-home2{
     height: 90vh;
@@ -136,6 +144,8 @@
   margin-right: 20px;
   width: 730px;  
 }
+
+/*main end*/
 
 
 @media (min-width: 993px) and (max-width: 1200px) {

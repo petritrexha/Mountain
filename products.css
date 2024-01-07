@@ -11,6 +11,8 @@
     overflow-x: hidden;
 }
 
+/*header start*/
+
 .pr-header{
     height: 8vh;
     width: 100%;
@@ -82,6 +84,9 @@
     border: 1px solid rgb(151, 63, 36);
 }
 
+/*header end*/
+
+/*main start*/
 
 .fa-arrow-right{
     color: rgb(151, 63, 36);
@@ -198,6 +203,7 @@
     color: white;
 }
 
+/*main end*/
 
 @media (min-width: 1200px) and (max-width: 1400px) {
     .navbar-nav .nav-link {
